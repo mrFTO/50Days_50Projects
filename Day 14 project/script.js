@@ -1,8 +1,4 @@
-const script = (a, b) => {
-    if (a) {
-        return b;
-    } else {
-        return a;
-    }
+const toggle = document.getElementById('toggle')
+const nav = document.getElementById('nav')
 
-}
+toggle.addEventListener('click', () => nav.classList.toggle('active'))
